@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/testing_portfolio'
   esbuild: {
     jsxInject: `import React from 'react'`,
   },
